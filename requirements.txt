@@ -1,0 +1,13 @@
+# Kurigram framework for Telegram connectivity (Pyrogram fork)
+kurigram==2.2.24
+TgCrypto==1.2.5
+
+# High-performance ASGI Web Server and API routing framework
+fastapi==0.115.0
+uvicorn[standard]==0.31.0
+
+# Native Asynchronous MongoDB Driver layer
+pymongo==4.9.1
+
+# General utilities
+pydantic==2.9.2
