@@ -23,7 +23,7 @@ bot_client = Client(
     api_id=Config.API_ID,
     api_hash=Config.API_HASH,
     bot_token=Config.BOT_TOKEN,
-    plugins=dict(root="plugins")  # Hooks your commands & copy files instantly
+    plugins=dict(root="payments")  # Hooks your commands & copy files instantly
 )
 
 @asynccontextmanager
